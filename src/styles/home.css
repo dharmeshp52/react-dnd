@@ -1,0 +1,97 @@
+body {
+  overflow-y: hidden !important;
+}
+.active-tab {
+  background-color: #d3d3f1;
+}
+
+ul > li {
+  list-style: none;
+}
+.list-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.tabing-wraper {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 95%;
+  overflow-y: auto;
+  padding: 6px 0;
+  margin-bottom: 4px;
+}
+.custom-cta {
+  width: 5%;
+  padding-left: 5px;
+  margin-top: 13px;
+}
+.custom-cta button {
+  width: 100% !important;
+}
+.site-wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.tabing-wraper li {
+  min-width: 150px;
+  padding: 10px;
+  background: #0d6efd;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+}
+.tabing-wraper li.active {
+  background: #0a58ca;
+  color: white;
+}
+.list-grid > div {
+  border: 1px solid white;
+  width: 25px;
+  border-radius: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.custome-tab-pane {
+  margin: 0 0 !important;
+}
+.custome-tab-pane .card {
+  margin-bottom: 20px !important;
+  background-color: #0a58ca;
+}
+
+.mini-mize {
+  margin-top: 20px;
+}
+.mini-mize h6 {
+  color: #000;
+}
+.custome-tab-pane .card ul {
+  margin: 0;
+  padding: 0;
+}
+
+button.close {
+  background: #0d6efd;
+  border: none;
+  height: 30px;
+  width: 30px;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+button.btn.btn-secondary {
+  background: transparent;
+  border: 1px solid;
+  margin-left: 5px;
+  font-size: 14px;
+}

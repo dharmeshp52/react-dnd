@@ -1,0 +1,9 @@
+.site-content {
+  width: 100%;
+  position: absolute;
+  margin-top: 25px;
+  left: 0;
+  background-color: #0a58ca29;
+  padding: 18px 0px;
+  min-height: 100vh;
+}
